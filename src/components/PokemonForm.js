@@ -13,6 +13,11 @@ class PokemonForm extends React.Component {
     }
   }
 
+  handleNameChange = (event) => {
+    this.setState({
+      name: event.target.value
+    })
+  }
   render() {
     return (
       <div>
